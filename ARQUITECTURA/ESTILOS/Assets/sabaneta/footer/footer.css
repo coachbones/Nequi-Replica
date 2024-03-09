@@ -1,0 +1,30 @@
+
+/*pie de pagina*/
+footer{
+    background-color: black;
+    width: 100%;
+    overflow: hidden;
+   height: 5.5rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.contact{
+    color: white;
+    text-align: center;
+    letter-spacing: 0.3rem;
+    font-size: 10px;
+
+}   
+
+@media only screen and (max-width: 479px) and (min-width: 480px) {
+    footer {
+        width: 40em;
+        margin-top: 2em;
+    }
+    .contact {
+        letter-spacing: 0.2rem;
+        font-size: 8px;
+    }
+}
+

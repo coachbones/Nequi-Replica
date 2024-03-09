@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none; 
+}
+
+/* cuerpo de pagina */
+body{
+    font-family: 'Noto Sans Kawi', sans-serif;
+    background-image: url(../imagenes/plano_inicio.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+    transition: 0.5s;
+    height: 100vh;
+    background-color: black;
+}
+/*boton de ingreso*/
+.entrar  {
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  .entrar a{
+      color: white;
+      border: 0.2rem  solid white;
+      padding: 1rem 2rem;
+      background-color: transparent;
+  }
+  .entrar:hover{
+      background-color: rgb(146, 35, 35, 0.5);
+      transition:  5ms ease-in-out ;
+      
+  }
+  @media screen and (max-width: 468px) {
+      body {
+         
+          letter-spacing: 0.2rem; 
+      }
+      .entrar{
+          font-size: 1em;
+          padding: 0.5em 0.5em;
+      }
+  
+     
+  }
+  @media screen and (max-width: 768px) {
+      body {
+          font-size: 2rem; 
+          letter-spacing: 0.2rem; 
+      }
+  
+      .entrar a {
+          padding: 1em; 
+          font-size: 0.5em;
+      }
+  }
+  @media screen and (max-width: 1199px) {
+      body {
+          font-size: 2.5rem; 
+          letter-spacing: 0.2rem; 
+      }
+  
+      .entrar a {
+          padding: 1.5rem; 
+      }
+  }
+  @media screen and (max-width: 1200px ) {
+      body {
+          font-size: 3rem; 
+          letter-spacing: 0.2rem; 
+      }
+  
+      .entrar a {
+          padding: 2rem; 
+      }
+  }

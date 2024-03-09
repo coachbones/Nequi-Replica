@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none; 
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Italianno', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans Kawi', sans-serif;
+   
+}
+
+/*contenedor del centro */
+main {
+    width: 100%;
+    background-color: rgb(80, 75, 75);
+    display: flex;
+    
+   align-items: center;
+}
+.contenedor__envigado{
+    width: 45rem;
+    height: 22rem;
+    margin: 1rem;
+    color: white;
+    align-items: center ;
+    padding: 1rem;
+    overflow: hidden;
+}
+.contenido__env{
+    align-items: center;
+    width: 100%;
+    text-align: justify;
+   overflow: hidden;
+}
+.contenido__env h1{
+    padding: 0.5rem;
+    align-items: center;
+    font-size: 4rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    
+}
+.contenido__env  h2{
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    overflow: hidden;
+    text-align: center;
+}
+.contenido__env p{
+    display: flex;
+    height: 10rem;
+    align-items: center;
+    letter-spacing: 1px;
+    font-size: 0.9em;
+    margin: 1rem;
+    text-align: justify;
+}
+/*para imagen de mapa*/
+.map__env {  
+    overflow: hidden;
+    display: flex;
+    margin: 1rem;
+    background-image: url(../imagenes/plano\ poligono\ env.jpg); 
+    background-position: center; 
+    background-size: 38rem 25rem;
+    background-repeat: no-repeat;
+    width: 55rem;
+    height: 25rem;
+    
+}
+
+
